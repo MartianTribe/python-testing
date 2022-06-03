@@ -1,3 +1,5 @@
+from enum import Enum
+
 # #this is different containers in python
 #two types of containers
 #   mutable- they can change (array and dictionaries)
@@ -93,13 +95,11 @@ fruit_set = {'apple', 'grape', 'orange', 'apple'}
 a_tuple = ('nathan', 'suranie', '17', 'needs a haircut', '17')
 #print(a_tuple[0])
 
-#lengths
-print(len(animals))
-print(len(fruit_set))
-print(len(family))
-print(len(a_tuple))
-
-#types
-print(type(animals))
-
-#loops
+# #lengths
+# print(len(animals))
+# print(len(fruit_set))
+# print(len(family))
+# print(len(a_tuple))
+#
+# #types
+# print(type(animals))

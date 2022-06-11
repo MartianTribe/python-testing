@@ -1,5 +1,7 @@
 import random
 def make_deck():
+
+    #set up suits and faces
     arr_suit = ['spades', 'clubs', 'diamonds', 'hearts']
 
     arr_faces = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
@@ -16,6 +18,7 @@ def make_deck():
         else:
             suit_color = 'red'
 
+        #add face values
         for face_value in arr_faces:
             arr_deck.append({'suit': string_suit, 'color': suit_color, 'face': face_value, 'value': idx + 1})
 
